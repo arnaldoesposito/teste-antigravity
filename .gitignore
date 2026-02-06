@@ -1,0 +1,85 @@
+############################
+# Sistema operacional
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# Editores e IDEs
+############################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+############################
+# Ambientes e dependências
+############################
+.env
+.env.*
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+
+############################
+# Build / cache / outputs
+############################
+dist/
+build/
+out/
+coverage/
+.cache/
+.tmp/
+logs/
+*.log
+
+############################
+# Dados e artefatos gerados
+############################
+data/
+outputs/
+results/
+artifacts/
+*.parquet
+*.csv
+*.jsonl
+
+############################
+# Modelos e IA
+############################
+models/
+checkpoints/
+embeddings/
+
+############################
+# Agentes / ferramentas externas
+############################
+.agent/
+agents/
+skills/
+.agent/skills/
+
+############################
+# Segurança
+############################
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+tokens/
+
+############################
+# Git aninhado / submodules locais
+############################
+**/.git
+
+############################
+# Outros
+############################
+*.tmp
+*.bak
+*.old
